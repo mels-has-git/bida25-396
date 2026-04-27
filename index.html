@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarona Adventures</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="C:\Users\melis\Desktop\bida25-396\Safari images\zambezi.jpg" as="image">
+<link rel="preload" href="C:\Users\melis\Desktop\bida25-396\Safari images\devilspool.png" as="image">
+<link rel="preload" href="C:\Users\melis\Desktop\bida25-396\Safari images\elephant.jpeg" as="image">
+<link rel="preload" href="C:\Users\melis\Desktop\bida25-396\Safari images\trdition.png" as="image">
 </head>
-
-<body>
-
+</body>
 <header>
-    <div class="logo">
-        <img src="logo.png" alt="Sarona Adventures Logo">
-    </div>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="Tours and Experiences.html">Tours and Experiences</a>
-        <a href="Gallery.html">Gallery</a>
-        <a href="Contact/Booking.html">Contact/Booking</a>
-        <a href="About/Ethics.html">About/Ethics</a>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="C:\Users\melis\Desktop\bida25-396\logo.png" alt="Sarona Adventures Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Tours and experiences">Tours and Experiences</a></li>
+            <li><a href="#About and Ethics">About and Ethics</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
-<section class="hero">
-    <h1>Sarona Adventures</h1>  </h1>
-    <h2>"Your home away from home"</h2>
-    <p>Discover Chobe, Kasane, Livingstone & Victoria Falls</p>
+<section class="hero-slider"> 
+ <div class="slide active" style="background-image: url('Safariimages/zambezi.jpg');">
+    <div class="hero-text">
+      <h1>SARONA ADVENTURES</h1>
+      <p>"Your home away from home"</p>
+    </div>
+  </div>
+
+
+    <div class="slide" style="background-image: url('Safariimages/devilspool.png');"></div>
+    <div class="slide" style="background-image: url('Safariimages/elephants.png');"></div>
+    <div class="slide" style="background-image: url('Safariimages/tradition.png');"></div>
 </section>
-</body>
-</html>
+
+<script src="script.js"></script>
