@@ -61,7 +61,7 @@ gap:20px;
 .hero-slider{
     position:relative;
     width:100%;
-    height:65vh;
+    height:70vh;
     background-color:var(--dark-bg);
     overflow:hidden;
 
@@ -109,13 +109,15 @@ gap:20px;
 }
 
 .activities{
-    padding:50px 40px;
+    padding:60px 40px;
 }
 
 .activities h2{
-    font-size: 13px;
-    letter-spacing:1px;
-    margin-bottom:30px;
+    text-align:center;
+    font-family:var(--font-serif);
+    font-size: 1.4rem;
+    letter-spacing:2px;
+    margin-bottom:40px;
     text-transform: uppercase;
     color:var(--safari-green);
 }
@@ -123,10 +125,35 @@ gap:20px;
 .activity-grid {
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap:30px;
-}
-.activity-card {
+    gap:40px;
     text-align: center;
+}
+
+.activity-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.activity-card img{
+    width:100%;
+    max-width:230px;
+    height: 160px;
+    object-fit: cover;
+    border: 2px solid var(--light-grey);
+    margin-bottom: 12px;
+}
+
+.activity-card a{
+    display: inline-block;
+    font-family: var(--font-serif);
+    font-size: 15px;
+    color: var(--black);
+    text-decoration: none;
+}
+.activity-card a:hover{
+    color: var(--gold);
+    text-decoration: underline;
 }
 .img-placeholder{
     border:2px solid var(--light-grey);
